@@ -5,7 +5,6 @@ function addChar(input, character) {
     input.value += character
 }
 
-
 function cos(form) {
     form.display.value = Math.cos(form.display.value);
 }
@@ -62,10 +61,10 @@ function checkNum(str) {
        var ch = str.charAt(i);
 
         if (ch < "0" || ch > "9") {
-         if (ch != "/" && ch != "*" && ch != "+" && ch != "-" && ch != "."
+            if (ch != "/" && ch != "*" && ch != "+" && ch != "-" && ch != "."
             && ch != "(" && ch!= ")" && ch != "%") {
 
-              alert("invalid entry!")
+              alert("Entrada inválida!")
               return false
             }
         }        
